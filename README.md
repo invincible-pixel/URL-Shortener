@@ -22,7 +22,7 @@ npm i mongoose
 
 Created first file index.js
 Then created controllers, routes and models
-In models there is url.js -> I made model in mongoose, then made Schema
+In models there is url.js. I made model in mongoose, then made Schema
 Properties in the Schema are: shortId, redirectURL, visithistory  then made the URL.
 
 Now I made URL of the router:
