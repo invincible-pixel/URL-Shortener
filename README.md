@@ -12,12 +12,12 @@ GET/:id – Redirects the user to the original URL
 GET/URL/analytics/:id – Returns the clicks for the provided short id
 
 Created empty SHORT-URL folder
-npm init -> will create package.json file for us.
+npm init -> will create a package.json file for us.
 
 Now we require some dependencies:
 npm i express
 
-For database I am using mongoose:
+For database, I am using mongoose:
 npm i mongoose
 
 Created first file index.js
@@ -27,9 +27,9 @@ Properties in the Schema are: shortId, redirectURL, visithistory  then made the 
 
 Now I made URL of the router:
 
-Now in controller I made url.js: made async function to generate new short url, I used a service named as npmjs.com and used short id package.
+Now in controller, I made url.js: made an async function to generate a new short url, I used a service named npmjs.com and used the short id package.
 
-On terminal wrote these commands for verification:
+On the terminal wrote these commands for verification:
 show dbs
 use short-url
 show collections
@@ -40,5 +40,5 @@ Used postman
 
 POST request ->http://localhost:8001/url
 now in body write url of any website -> it will generate short id
-we will cross check it in our database by writing command db.urls.find({}) 
+we will cross check it in our database by writing command db.urls.find({}).
 Now in GET request http://localhost:8001/id
