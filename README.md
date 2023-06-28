@@ -47,7 +47,7 @@ show collections
 urls
 db.urls.find({})
 
-Used postman
+Used Postman API for testing and verifying:
 
 POST request ->http://localhost:8001/url.
 
