@@ -41,11 +41,13 @@ Now in controller, I made url.js: made an async function to generate a new short
 
 On the terminal wrote these commands for verification:
 
+```bash
 show dbs
 use short-url
 show collections
 urls
 db.urls.find({})
+```
 
 Used Postman API for testing and verifying:
 
